@@ -1,0 +1,21 @@
+
+
+#         Powered by TabooLib 6.1         #
+
+
+default_0:
+  # 起始值
+  min: 0
+  # 最大值
+  max: 100
+  # 经验算法
+  experience:
+    case &level [
+      when <= 15 -> calc "level * 2 + 7"
+      when <= 30 -> calc "level * 5 - 38"
+      else calc "level * 9 - 158"
+    ]
+  # 等级提升奖励
+  reward:
+    5: tell colored inline *"&aLevel up! &f{{ &level }}!"
+    10-20: tell colored inline *"&eLevel up! &f{{ &level }}!"

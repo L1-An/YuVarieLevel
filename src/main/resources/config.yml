@@ -1,0 +1,12 @@
+Database:
+  # MYSQL or SQLITE
+  Method: MYSQL
+  SQL:
+    host: localhost
+    port: 3306
+    user: root
+    password: root
+    database: minecraft
+
+# 是否开启发送信息的音效提示
+sound-notify: true

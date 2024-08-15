@@ -1,0 +1,17 @@
+prefix: "&3Yu&bVarieLevel &7|"
+
+command-reload: "{prefix} &aReload successfully!"
+debug: "{prefix} &aDebug mode toggled - {status}"
+
+level-load-success: "{prefix} &aSuccessfully loaded &e{amount}&a level configurations, a total of &e{total}&a configurations."
+level-level-change: "{prefix} &8[&e{option}&8] &fLevel up! &aLv.&e{level}&f(&e{exp}&f)"
+level-exp-change: "{prefix} &8[&e{option}&8] &fExperience gained! &aLv.&e{level}&f(&e{exp}&f)"
+
+var-set: "{prefix} &f{key} -> &e{value}"
+var-add: "{prefix} &f{key} = &e{value}"
+var-add-exist: "{prefix} &e{key}&c already exists, use &e set&c to overwrite"
+var-remove: "{prefix} &f{key} ->&c null"
+var-clear: "{prefix} &aAll variables of &e{player}&a have been cleared"
+var-info-header: "{prefix} &e{player}&a's variable information:"
+var-info: " - &f{key} = &e{value}"
+var-info-empty: "{prefix} &cThis player has no variable information"

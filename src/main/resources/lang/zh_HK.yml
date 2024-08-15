@@ -1,0 +1,17 @@
+prefix: "&3Yu&bVarieLevel &7|"
+
+command-reload: "{prefix} &a重載成功"
+debug: "{prefix} &a已切換debug模式 - {status}"
+
+level-load-success: "{prefix} &a已成功加载 &e{amount} &a个等级配置, 配置共 &e{total} &a个."
+level-level-change: "{prefix} &8[&e{option}&8] &f等级提升! &aLv.&e{level}&f(&e{exp}&f)"
+level-exp-change: "{prefix} &8[&e{option}&8] &f经验增加! &aLv.&e{level}&f(&e{exp}&f)"
+
+var-set: "{prefix} &f{key} -> &e{value}"
+var-add: "{prefix} &f{key} = &e{value}"
+var-add-exist: "{prefix} &e{key} &c已存在, 使用&e set &c指令來覆蓋"
+var-remove: "{prefix} &f{key} ->&c null"
+var-clear: "{prefix} &a已清空 &e{player} &a的所有變量"
+var-info-header: "{prefix} &e{player}&a的變量信息為:"
+var-info: " - &f{key} = &e{value}"
+var-info-empty: "{prefix} &c該玩家沒有任何變量信息"
