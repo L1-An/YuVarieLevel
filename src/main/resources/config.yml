@@ -10,3 +10,9 @@ Database:
 
 # 是否开启发送信息的音效提示
 sound-notify: true
+
+update:
+  # 是否开启更新检查
+  check: true
+  # 是否开启更新提示
+  notify: true

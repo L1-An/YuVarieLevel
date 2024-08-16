@@ -9,7 +9,7 @@ default_0:
   # 最大值
   max: 100
   # 经验算法
-  experience:
+  experience: |
     case &level [
       when <= 15 -> calc "level * 2 + 7"
       when <= 30 -> calc "level * 5 - 38"

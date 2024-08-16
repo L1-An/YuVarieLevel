@@ -42,6 +42,6 @@ object YuVarieLevel : Plugin() {
             return
         }
 
-        GithubUpdateChecker("l1-an", "YuVarieLevel").check()
+        GithubUpdateChecker("L1-An", "YuVarieLevel").check()
     }
 }
